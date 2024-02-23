@@ -30,7 +30,7 @@ const props = defineProps({
 
 const buttonClass = computed(() => {
   return cva(
-    " flex items-center justify-center font-medium transition-all font-main",
+    " flex items-center justify-center font-medium transition-all font-main whitespace-nowrap",
     {
       variants: {
         variant: {

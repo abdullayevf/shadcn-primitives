@@ -14,12 +14,12 @@
             <Button variant="subtle">Subtle</Button>
             <Button variant="ghost">Ghost</Button>
             <Button variant="link">Link</Button>
-            <Button> <Mail class="w-4 h-4 mr-2" /> Login with Email</Button>
+            <Button> <Mail class="w-4 h-auto mr-2 min-w-4" /> Login with Email</Button>
 
-            <Button variant="icon"><Plus class="w-4 h-4" /></Button>
-            <Button variant="iconCircle"><Plus class="w-4 h-4" /></Button>
+            <Button variant="icon"><Plus class="w-4 h-auto min-w-4" /></Button>
+            <Button variant="iconCircle"><Plus class="w-4 h-auto min-w-4" /></Button>
             <Button variant="loading"
-              ><Loader2 class="w-4 h-4 mr-2 animate-spin" />Loading</Button
+              ><Loader2 class="w-4 h-auto mr-2 min-w-4 animate-spin" />Loading</Button
             >
           </div>
         </div>
