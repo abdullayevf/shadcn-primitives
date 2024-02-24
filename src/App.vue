@@ -14,24 +14,30 @@
             <Button variant="subtle">Subtle</Button>
             <Button variant="ghost">Ghost</Button>
             <Button variant="link">Link</Button>
-            <Button> <Mail class="w-4 h-auto mr-2 min-w-4" /> Login with Email</Button>
+            <Button>
+              <Mail class="w-4 h-auto mr-2 min-w-4" /> Login with Email</Button
+            >
 
             <Button variant="icon"><Plus class="w-4 h-auto min-w-4" /></Button>
-            <Button variant="iconCircle"><Plus class="w-4 h-auto min-w-4" /></Button>
+            <Button variant="iconCircle"
+              ><Plus class="w-4 h-auto min-w-4"
+            /></Button>
             <Button variant="loading"
-              ><Loader2 class="w-4 h-auto mr-2 min-w-4 animate-spin" />Loading</Button
+              ><Loader2
+                class="w-4 h-auto mr-2 min-w-4 animate-spin"
+              />Loading</Button
             >
           </div>
         </div>
 
-        <!-- Inputs -->
+        <!-- Forms -->
 
         <div class="bg-white rounded-md w-fit">
           <h1 class="p-4 text-xl font-semibold">Inputs</h1>
           <hr />
           <div class="flex flex-col items-start p-4 space-y-2 buttons">
-            <Input variant="active" />
-            <Input variant="disabled" />
+            <Form> </Form>
+            <Form disabled />
           </div>
         </div>
       </div>
@@ -41,6 +47,6 @@
 
 <script setup>
 import Button from "./components/Button.vue";
-import Input from "./components/Input.vue";
+import Form from "./components/Form.vue";
 import { Mail, Plus, Loader2 } from "lucide-vue-next";
 </script>
